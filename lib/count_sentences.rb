@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self[-1] == "."
+    if self.index[-1] == "."
   end
 end
 
