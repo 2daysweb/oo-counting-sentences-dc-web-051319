@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self.split("").index[-1] == "."
+    if self.split("").index["."] == "."
   end
 end
 
