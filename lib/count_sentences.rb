@@ -33,3 +33,4 @@ class String
       0
   end
 end
+end
