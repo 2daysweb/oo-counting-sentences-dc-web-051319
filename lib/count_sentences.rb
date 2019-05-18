@@ -32,9 +32,8 @@ class String
         self.split.each do |sentence|
           [".", "?", "!"].include?(sentence[-1])
         count+=1
-    else
-        count 
-  end
+end
+end
 end
 end
 end
