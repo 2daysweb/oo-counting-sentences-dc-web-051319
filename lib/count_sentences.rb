@@ -33,7 +33,8 @@ class String
           [".", "?", "!"].include?(sentence[-1])
         count+=1
       else
-        count = 0
+     count = 0
+end
 end
 end
 count 
