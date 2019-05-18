@@ -4,7 +4,10 @@ class String
 
   def sentence?
     binding.pry
-    if self.split()[-1][-1] == "."
+    if self.split()[-1][-1] == "." 
+      true 
+  else
+      false
   end
 end
 
