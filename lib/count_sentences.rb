@@ -3,6 +3,7 @@ require 'pry'
 class String
 
   def sentence?
+    binding.pry
     if self.split("").index["."] == -1
   end
 end
