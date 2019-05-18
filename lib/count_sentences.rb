@@ -30,7 +30,7 @@ class String
     count = 0
     if (self.split & [".", "?", "!"]).any?
         self.split.each do |sentence|
-          [".", "?", "!"].include?(sentence[-1])
+          if [".", "?", "!"].include?(sentence[-1])
         count+=1
       else
      count = 0
