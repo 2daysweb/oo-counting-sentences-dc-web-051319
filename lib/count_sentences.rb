@@ -27,9 +27,11 @@ class String
   end
 
   def count_sentences
+    count = 0
     if (self.split & [".", "?", "!"]).any?
-      binding.pry
-      total = self.split(".").count + self.split("?").count + self.split("!").count
+      self.split.each do |sentence|
+       (sentence[-1] & [".", "?", "!"]).any?
+        
     else
       0
   end
