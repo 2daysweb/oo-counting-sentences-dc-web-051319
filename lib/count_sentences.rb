@@ -35,5 +35,6 @@ class String
 end
 end
 end
+count 
 end
 end
