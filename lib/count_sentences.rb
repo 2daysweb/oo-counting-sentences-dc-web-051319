@@ -34,7 +34,6 @@ class String
         count+=1
 end
 end
-end
 count 
 end
 end
