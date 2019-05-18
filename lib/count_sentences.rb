@@ -27,6 +27,8 @@ class String
   end
 
   def count_sentences
-
+    if self.include?(".")
+       self.split(".").count
+      
   end
 end
