@@ -5,6 +5,7 @@ class String
   def sentence?
     if self.value_at[-1] == "."
   end
+end
 
   def question?
 
