@@ -29,8 +29,8 @@ class String
   def count_sentences
     count = 0
     if (self.split & [".", "?", "!"]).any?
-      self.split.each do |sentence|
-       ([".", "?", "!"].include?(sentence[-1])
+        self.split.each do |sentence|
+          [".", "?", "!"].include?(sentence[-1])
         count+=1
     else
       count
