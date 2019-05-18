@@ -19,7 +19,11 @@ class String
   end
 
   def exclamation?
-
+     if self.split()[-1][-1] == "!" 
+      true 
+    else
+      false
+    end
   end
 
   def count_sentences
