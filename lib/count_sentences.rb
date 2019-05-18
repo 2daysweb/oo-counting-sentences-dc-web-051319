@@ -11,7 +11,11 @@ class String
   end
 
   def question?
-    
+     if self.split()[-1][-1] == "?" 
+      true 
+    else
+      false
+    end
   end
 
   def exclamation?
