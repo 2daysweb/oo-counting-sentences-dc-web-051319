@@ -5,10 +5,10 @@ class String
   def sentence?
     if self.split()[-1][-1] == "." 
       true 
-  else
+    else
       false
+    end
   end
-end
 
   def question?
     
